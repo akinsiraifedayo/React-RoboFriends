@@ -7,9 +7,9 @@ export default function Home() {
       <div className="tc">
         <h1>RoboFriends</h1>
         <SearchBtn />
+        <CardList robots={robots}/> 
       </div>
       
-      <CardList robots={robots}/> 
     </div>
   );
 }
